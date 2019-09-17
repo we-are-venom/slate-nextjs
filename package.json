@@ -8,8 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "immutable": "^4.0.0-rc.12",
     "next": "9.0.5",
     "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "react-dom": "16.9.0",
+    "slate": "^0.47.8",
+    "slate-html-serializer": "^0.8.10"
   }
 }

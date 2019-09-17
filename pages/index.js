@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import RichEditor from '../components/rich-editor';
 
 const Home = () => (
   <div>
@@ -10,6 +11,8 @@ const Home = () => (
     </Head>
 
     <Nav />
+
+    <RichEditor />
 
     <div className='hero'>
       <h1 className='title'>Welcome to Next.js!</h1>
