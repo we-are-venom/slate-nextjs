@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "immutable": "^4.0.0-rc.12",
+    "jsdom": "^15.1.1",
     "next": "9.0.5",
     "react": "16.9.0",
     "react-dom": "16.9.0",

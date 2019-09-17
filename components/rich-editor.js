@@ -1,4 +1,7 @@
 import Html from 'slate-html-serializer'
+import { Editor } from 'slate-react'
+import { JSDOM } from 'jsdom'
+
 
 const BLOCK_TAGS = {
     blockquote: 'quote',
@@ -73,7 +76,7 @@ const BLOCK_TAGS = {
   ]
 
 // Create a new serializer instance with our `rules` from above.
-const html = new Html({ rules })
+const html = new Html({ rules,parseHtml: JSDOM.fragment })
 
 // Load the initial value from Local Storage or a default.
 const initialValue = '<p></p>'
